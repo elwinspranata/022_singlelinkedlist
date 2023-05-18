@@ -121,7 +121,6 @@ void searchData() {
 		while (currentNode != NULL) {
 			if (currentNode->noMhs == nim) {
 				cout << "NIM: " << currentNode->noMhs << ", Nama: " << currentNode->name << endl;
-
 				return;
 			}
 			currentNode = currentNode->next;
